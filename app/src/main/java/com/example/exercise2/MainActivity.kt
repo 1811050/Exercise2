@@ -41,12 +41,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun reset(){
-        val weight = findViewById<EditText>(R.id.editTextWeight)
-        val height = findViewById<EditText>(R.id.editTextHeight)
+//        val weight = findViewById<EditText>(R.id.editTextWeight)
+//        val height = findViewById<EditText>(R.id.editTextHeight)
         val profile = findViewById<ImageView>(R.id.imageViewProfile)
         val bmiValue = findViewById<TextView>(R.id.textViewBMI)
         val bmiResult = findViewById<TextView>(R.id.textViewBMIResult)
-        val value = 0
+//        val value = 0
         bmiValue.text = "BMI : "
         bmiResult.text = " "
         profile.setImageResource(R.drawable.empty)
